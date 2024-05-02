@@ -3,6 +3,7 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
+// Tab data displays an array of information on what components a tab contains
 const TAB_DATA = [
   {
     title: "Skills",
@@ -26,8 +27,9 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Le Wagon Web Development Bootcamp</li>
+        <p>24-week intensive coding bootcamp learning HTML, Git, JavaScript, Sinatra, jQuery, Rails, CSS, Front End, Ruby, SQL, MySQL, Figma</p>
         <li>Masters in International Horticulture, Leibniz Universität Hannover</li>
-
+        <p>International Horticulture majoring Plant Biotechnology, Propagation and Production</p>
       </ul>
     ),
   },
