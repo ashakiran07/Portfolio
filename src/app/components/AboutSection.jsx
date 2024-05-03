@@ -74,7 +74,7 @@ const AboutSection = () => {
 
           🚀  From optimizing plant growth algorithms to developing dynamic web applications, I thrive in environments that foster creativity, collaboration, and continuous improvement. What actually motivates me is working with ideas and finding answers. I am constantly eager to learn new things and I am not hesitant to step outside of my comfort zone while embracing new challenges and innovations.</p>
           <p className="text-base lg:text-lg">
-🌿 Having brought amazing "teamoshpere" to different groups, I'm looking forward to joining ambitious developers and continue to learn.          </p>
+🌿 Having brought amazing &quot;teamoshpere&quot; to different groups, I'm looking forward to joining ambitious developers and continue to learn.          </p>
 
           <div className="flex flex-row justify-start mt-8 hover:text-white text-[#ADB7BE]">
             <TabButton
