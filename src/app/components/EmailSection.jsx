@@ -60,40 +60,13 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-  <Link href="github.com">
-    <div className="rounded-full p-1">
-      <Image
-        src={GithubIcon}
-        alt="Github Icon"
-        style={{
-          borderRadius: '50%',
-          padding: '0.5rem',
-          background: 'linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899)',
-          transition: 'opacity 0.3s',
-        }}
-        className="hover:bg-slate-200"
-      />
-    </div>
-  </Link>
-  <Link href="linkedin.com">
-    <div className="rounded-full p-1">
-      <Image
-        src={LinkedinIcon}
-        alt="Linkedin Icon"
-        style={{
-          borderRadius: '50%',
-          padding: '0.5rem',
-          background: 'linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899)',
-          transition: 'opacity 0.3s',
-        }}
-        className="hover:bg-slate-200"
-      />
-    </div>
-  </Link>
-</div>
-
-
-
+          <Link href="https://github.com/ashakiran07">
+            <Image src={GithubIcon} alt="Github Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/asha-kiran-devkota-572684172">
+            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+        </div>
       </div>
       <div>
         {emailSubmitted ? (
@@ -115,11 +88,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                style={{
-                  border: "2px solid transparent",
-                  backgroundClip: "padding-box",
-                  borderImage: "linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899) 1",
-                }}
+
                 placeholder="hello@google.com"
               />
             </div>
@@ -136,11 +105,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                style={{
-                  border: "2px solid transparent",
-                  backgroundClip: "padding-box",
-                  borderImage: "linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899) 1",
-                }}
+
                 placeholder="Just saying hi"
               />
             </div>
@@ -155,21 +120,22 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                style={{
-                  border: "2px solid transparent",
-                  backgroundClip: "padding-box",
-                  borderImage: "linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899) 1",
-                }}
+
                 placeholder="Let's talk about..."
               />
             </div>
             <button
-              type="submit"
-              className="bg-primary-500 hover:bg-primary-600 text-white border border-white font-medium py-2.5 px-5 rounded-lg flex justify-center items-center w-full"
-              >
-             <span className="mr-2"><FontAwesomeIcon icon={faPaperPlane} size="sm"/></span>
-             Send Message
-            </button>
+  type="submit"
+  className="bg-primary-500 hover:bg-primary-600 text-white border border-white font-medium py-2.5 px-5 rounded-lg flex justify-center items-center w-full"
+  style={{
+    border: "2px solid transparent",
+    backgroundClip: "padding-box",
+    borderImage: "linear-gradient(to bottom right, #3b82f6, #7c3aed, #ec4899) 1",
+  }}
+>
+  <span className="mr-2"><FontAwesomeIcon icon={faPaperPlane} /></span>
+  Send Message
+</button>
 
           </form>
         )}
