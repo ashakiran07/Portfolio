@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { TypeAnimation } from 'react-type-animation';
-
+import GithubIcon from "../../../public/github-icon.svg";
+import LinkedinIcon from "../../../public/linkedin-icon.svg";
 
 const HeroSection = () => {
   return (
@@ -32,6 +33,14 @@ const HeroSection = () => {
       repeat={Infinity}
     />
             </h1>
+            <div className="socials flex flex-row gap-2">
+          <Link href="https://github.com/ashakiran07">
+            <Image src={GithubIcon} alt="Github Icon" />
+          </Link>
+          <Link href="https://www.linkedin.com/in/asha-kiran-devkota-572684172">
+            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+        </div>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
           a former plant biotechnologist and a full time parent who discovered a new calling in the dynamic world of web development.
           </p>

@@ -3,6 +3,7 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
+
 // Tab data displays an array of information on what components a tab contains
 const TAB_DATA = [
   {
