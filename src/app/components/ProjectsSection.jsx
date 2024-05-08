@@ -3,6 +3,7 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import Image from "next/image";
 
 const projectsData = [
   {
@@ -40,11 +41,11 @@ const projectsData = [
   {
     id: 3,
     title: "React Portfolio Website",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    description: "This is a portfolio website built with Next.js in an elegant and responsive design.",
+    image: "/images/projects/5.png",
     tag: ["All"],
-    gitUrl: "/",
-    previewUrl: "",
+    gitUrl: "https://github.com/ashakiran07/Portfolio",
+    previewUrl: "ashakirandevkota.com.np",
   },
   {
     id: 4,
@@ -58,10 +59,19 @@ const projectsData = [
   {
     id: 5,
     title: "Tic Tac Toe Game Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
+    description: "Tic Tac Toe is a classic game played on a 3x3 grid where players take turns marking spaces with their symbols (usually X and O) until one player wins by placing three of their symbols in a row, column, or diagonal, or the game ends in a draw.",
+    image: "/images/projects/3.png",
     tag: ["All", "Mobile"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/ashakiran07/Tic-Tac-Toe",
+    previewUrl: "",
+  },
+  {
+    id: 6,
+    title: "Simple AirBnB Flats Index",
+    description: "This Rails application is designed to resemble Airbnb, allowing users to browse a list of flats and perform basic CRUD operations. With its intuitive interface and essential functionalities, it serves as a foundation for building more complex real estate or accommodation rental platforms in the future.",
+    image: "/images/projects/6.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/ashakiran07/rails-simple-airbnb",
     previewUrl: "/",
   },
 ];

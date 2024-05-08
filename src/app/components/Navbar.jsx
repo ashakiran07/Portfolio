@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="border-rounded flex flex-wrap items-center justify-between mx-auto py-4">
       <a href="/">
       <div className="rounded-full overflow-hidden">
-        <Image src="/images/logo.png" alt="Logo" width={60} height={60} className="opacity-75" />
+        <p className= "text-slate-200 hover:text-white hover:border-white">AKD</p>
       {/* Adjust the height as per your design */}
       </div>
     </a>
