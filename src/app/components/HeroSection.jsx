@@ -33,23 +33,31 @@ const HeroSection = () => {
       repeat={Infinity}
     />
             </h1>
-            <div className=" mt-3 mb-3 socials flex flex-row gap-2">
+
+        </div>
+          <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
+          a former plant biotechnologist and a full time parent who discovered a new calling in the dynamic world of web development.
+          </p>
+          <div className=" mt-3 mb-3 socials flex flex-row gap-2">
           <Link href="https://github.com/ashakiran07">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/asha-kiran-devkota-572684172">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-        </div>
-          <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-          a former plant biotechnologist and a full time parent who discovered a new calling in the dynamic world of web development.
-          </p>
-
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">Let&rsquo;s connect</button>
+          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
+  <Link href="#contact">
+  Let&rsquo;s connect
+  </Link>
+</button>
+
             <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
-            </button>
+  <a href="https://drive.google.com/uc?export=download&id=1W6epwhtDJcUS_2dZ6S3fZWqzJcaTAZZn">
+    <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
+  </a>
+</button>
+
           </div>
         </div>
         <div className="col-span-5 place-self-center mt-4 lg:mt-0">

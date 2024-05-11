@@ -25,8 +25,8 @@ const FromSection = () => {
 
         {/* Embed the YouTube video using an iframe */}
         <iframe
-  width="560"
-  height="315"
+  width="380"
+  height="200"
   src="https://www.youtube.com/embed/NKzIHcRxlo4"
   title="YouTube video player"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
