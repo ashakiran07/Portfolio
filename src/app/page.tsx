@@ -6,6 +6,9 @@ import ProjectsSection from "./components/ProjectsSection";
 import Footer from "./components/Footer";
 import EmailSection from "./components/EmailSection";
 import FromSection from "./components/FromSection"; // Import the new component
+import BlogSection from "./components/BlogSection";
+import GallerySection from "./components/GallerySection";
+
 
 export default function Home() {
   return (
@@ -16,6 +19,8 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
+        <BlogSection />
+        <GallerySection />
         <FromSection /> {/* Use the new component */}
         <Footer />
       </div>

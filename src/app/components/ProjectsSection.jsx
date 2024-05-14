@@ -18,21 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "Vinyl Rental (Air bnb Clone) Website",
-    description: `Rent Vinyl is a web application that allows users to rent and manage vinyl records. Users can browse available vinyls, view details of each offer, calculate rental prices, make bookings, manage their listings, and more.
-
-    This project was created with:
-
-    - Ruby
-    - Rails
-    - ERB (for template system with Ruby)
-    - Pry-byebug (for debugging)
-    - Bootstrap
-    - Simple_form
-    - Postgresql
-    - Javascript (Stimulus)
-    - Mapbox API (for displaying maps)
-    - Cloudinary (for image storage and manipulation)
-    - Heroku: Tested and successfully uploaded`,
+    description: "Rent Vinyl is a web application that allows users to rent and manage vinyl records. Users can browse available vinyls, view details of each offer, calculate rental prices, make bookings, manage their listings, and more.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/lae178456/airbnb_vinyl",

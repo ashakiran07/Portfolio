@@ -60,17 +60,16 @@ const HeroSection = () => {
 
           </div>
         </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
-          <Image
-            src="/images/gif.png"
-            alt="hero image"
-            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            width={300}
-            height={300}
-            />
-          </div>
-        </div>
+        <div className="col-span-5 place-self-center mt-4 lg:mt-0 shadow-lg">
+  <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] relative shadow-md">
+    <Image
+      src="/images/hero.jpg"
+      alt="hero image"
+      className="absolute top-0 left-0 w-[150px] h-[150px] lg:w-[300px] lg:h-[300px] rounded-full object-cover"
+      layout="fill"
+    />
+  </div>
+</div>
       </div>
     </section>
   )
