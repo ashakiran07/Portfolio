@@ -39,7 +39,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Le Wagon Web Development Bootcamp Graduate</li>
+        <li>Le Wagon Web Development Bootcamp Graduate
+        <br />
+        <Image src="/images/about/certificate.jpg" alt="Certificate" width={300} height={200} className="mt-2" />
+        </li>
       </ul>
     ),
   },
