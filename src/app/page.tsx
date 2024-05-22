@@ -19,7 +19,6 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
-        <BlogSection />
         <GallerySection />
         <FromSection /> {/* Use the new component */}
         <Footer />
