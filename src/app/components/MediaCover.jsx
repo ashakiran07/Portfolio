@@ -9,6 +9,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 import Modal from '@mui/material/Modal';
 import { styled } from '@mui/system';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 
 export default function MediaCover() {
   const [open, setOpen] = useState(false);
@@ -167,7 +169,7 @@ function MediaCard({ item, onOpen }) {
         </Typography>
         {isLongCaption && (
           <Typography variant="body2" sx={{ color: 'blue', cursor: 'pointer' }} onClick={toggleReadMore}>
-            {readMore ? 'Read less' : 'Read more'}
+                        {readMore ? 'Read less' : 'Read more'} <ArrowForwardIcon sx={{ ml: 0.5, fontSize: '1rem' }} />
           </Typography>
         )}
       </CardContent>
