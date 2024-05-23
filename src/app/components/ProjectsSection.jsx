@@ -8,7 +8,7 @@ import Image from "next/image";
 const projectsData = [
   {
     id: 1,
-    title: "Syncsparkle: Event Posting Platform Website",
+    title: "Syncsparkle: Event Posting Platform",
     description: "An event posting platform that allows users to create, manage and post their events integrating Eventbrite API and also invite people through their emails.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
@@ -44,7 +44,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "Tic Tac Toe Game Application",
+    title: "Tic Tac Toe Game",
     description: "Tic Tac Toe is a classic game played on a 3x3 grid where players take turns marking spaces with their symbols (usually X and O) until one player wins by placing three of their symbols in a row, column, or diagonal, or the game ends in a draw.",
     image: "/images/projects/3.png",
     tag: ["All", "Mobile"],

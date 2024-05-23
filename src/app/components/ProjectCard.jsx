@@ -1,9 +1,16 @@
-
-import React from "react";
+import React, { useState } from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+  const [expanded, setExpanded] = useState(false);
+
+  const toggleExpanded = () => {
+    setExpanded(!expanded);
+  };
+
+  const truncatedDescription = description.slice(0, 50); // Truncate description to 100 characters
+
   return (
     <div className="border" style={{ hover: 'linear-gradient(to bottom right, blue, purple, pink) 1' }}>
       <div
@@ -27,7 +34,16 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <p className="text-[#ADB7BE]">
+          {expanded ? description : truncatedDescription}
+        </p>
+        {description.length > 50 && (
+          <div className="mt-2">
+            <span className="text-blue-500 cursor-pointer" onClick={toggleExpanded}>
+              {expanded ? "Read less" : "Read more"}
+            </span>
+          </div>
+        )}
       </div>
     </div>
   );
