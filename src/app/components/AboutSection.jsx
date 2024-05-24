@@ -171,7 +171,7 @@ const AboutSection = () => {
             zone while embracing new challenges and innovations.
           </p>
           <p className="text-base lg:text-lg">
-            🌿 Having brought amazing "teamoshpere" to different groups, I'm
+            🌿 Having brought amazing &quot;teamoshpere&quot; to different groups, I&apos;m
             looking forward to joining ambitious developers and continue to
             learn.
           </p>
