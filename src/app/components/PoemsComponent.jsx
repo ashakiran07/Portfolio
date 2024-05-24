@@ -1,5 +1,7 @@
 // PoemsComponent.jsx
 import React from "react";
+import Image from "next/image";
+
 
 const PoemsComponent = () => {
   // Define your Poems content here
@@ -9,7 +11,7 @@ const PoemsComponent = () => {
         <article>
           <div className="article-wrapper">
             <figure>
-              <img
+              <Image
                 src="https://picsum.photos/id/1011/800/450"
                 alt=""
               />
