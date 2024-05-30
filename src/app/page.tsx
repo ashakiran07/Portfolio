@@ -20,6 +20,7 @@ export default function Home() {
         <ProjectsSection />
         <EmailSection />
         <GallerySection />
+        <BlogSection />
         <FromSection /> {/* Use the new component */}
         <Footer />
       </div>

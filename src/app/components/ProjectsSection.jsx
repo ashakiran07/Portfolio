@@ -13,8 +13,11 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/lae178456/syncsparkle",
-    previewUrl: "https://syncsparkleapp-c6ba66b7978d.herokuapp.com/",
+    previewUrl: "https://drive.google.com/file/d/1PwHlwCyYos6I718nZuo3Y48JOr3xY6_l/view?usp=drive_link",
+    link: "https://syncsparkleapp-c6ba66b7978d.herokuapp.com"
+
   },
+
   {
     id: 2,
     title: "Vinyl Rental (Air bnb Clone) Website",
@@ -116,9 +119,11 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
+
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              Link={project.link}
             />
           </motion.li>
         ))}
