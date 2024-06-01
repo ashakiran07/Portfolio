@@ -51,4 +51,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## License
 
-This project is built by Asha Kiran Devkota @2024. Feel free to fork, clone, use, modify, and distribute the code as per the terms of the MIIT license.
+All rights belong to Asha Kiran Devkota @2024. 
