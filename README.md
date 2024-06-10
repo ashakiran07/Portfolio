@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a portfolio website built with Next.js in an elegant and responsive design.
+This is a personal responsive portfolio website built with Next.js.
  [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
  ## Installation
