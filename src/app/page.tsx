@@ -9,7 +9,6 @@ import FromSection from "./components/FromSection"; // Import the new component
 import BlogSection from "./components/BlogSection";
 import GallerySection from "./components/GallerySection";
 
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
@@ -27,3 +26,4 @@ export default function Home() {
     </main>
   );
 }
+
