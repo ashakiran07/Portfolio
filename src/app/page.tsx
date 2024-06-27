@@ -24,6 +24,7 @@ export default function Home() {
         <FromSection /> {/* Use the new component */}
         <Footer />
       </div>
+      
     </main>
   );
 }
