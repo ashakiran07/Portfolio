@@ -3,7 +3,6 @@
 This is a personal portfolio website project in progress being built with React/Next.js.
  [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
- 
  ## Installation
 1. Clone the repository: `git clone https://github.com/ashakiran07/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
@@ -14,7 +13,6 @@ This is a personal portfolio website project in progress being built with React/
       (Requires a react and react-dom version of at least 15.0.0.)
 
 ## Usage
-
 1. Start the development server: `npm run dev`
 2. Open your browser and visit `http://localhost:3000` to view the website.
 
