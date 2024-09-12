@@ -1,5 +1,4 @@
 # Portfolio Website
-
 This is a personal portfolio website project in progress being built with React/Next.js.
  [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
