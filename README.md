@@ -1,8 +1,8 @@
-# Portfolio Website
+## Portfolio Website
 This is a personal portfolio website project in progress being built with React/Next.js.
  [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
- ## Installation
+## Installation
 1. Clone the repository: `git clone https://github.com/ashakiran07/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
@@ -20,7 +20,6 @@ This is a personal portfolio website project in progress being built with React/
 4. This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Dependencies
-
 - Next.js: A React framework for server-side rendering and static site generation.
 - Tailwind CSS: A highly customizable CSS framework.
 - React: A JavaScript library for building user interfaces.
