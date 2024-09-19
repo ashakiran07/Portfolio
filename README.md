@@ -1,8 +1,10 @@
 ## Portfolio Website
+
 This is a personal portfolio website project in progress being built with React/Next.js.
  [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Installation
+
 1. Clone the repository: `git clone https://github.com/ashakiran07/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
