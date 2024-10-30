@@ -14,6 +14,7 @@ This is a personal portfolio website project in progress being built with React/
       (Requires a react and react-dom version of at least 15.0.0.)
 
 ## Usage
+
 1. Start the development server: `npm run dev`
 2. Open your browser and visit `http://localhost:3000` to view the website.
 
