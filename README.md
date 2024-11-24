@@ -28,7 +28,6 @@ This is a  portfolio website project in progress being built with React/Next.js.
 - Resend: Resend is the email API for developers.
 
 ## Learn More
-
 To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
@@ -43,5 +42,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## License
-
 All rights belong to Asha Kiran Devkota @2024. 
