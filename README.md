@@ -11,6 +11,7 @@ This is a  portfolio website project in progress being built with React/Next.js.
    - Installation: npm install react-type-animation  or yarn add react-type-animation
       (Requires a react and react-dom version of at least 15.0.0.)
 
+
 ## Usage
 1. Start the development server: `npm run dev`
 2. Open your browser and visit `http://localhost:3000` to view the website.
