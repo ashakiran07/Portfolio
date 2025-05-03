@@ -20,6 +20,7 @@ This is a  portfolio website project in progress being built with React/Next.js.
 
 4. This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+
 ## Dependencies
 - Next.js: A React framework for server-side rendering and static site generation.
 - Tailwind CSS: A highly customizable CSS framework.
